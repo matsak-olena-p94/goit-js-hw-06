@@ -1,7 +1,8 @@
 class StringBuilder {
   #value;
+
   constructor(value) {
-    this.value = value;
+    this.#value = value;
   }
 
   getValue() {
@@ -17,9 +18,9 @@ class StringBuilder {
   }
 
   padBoth(str) {
-  this.padStart(str);
-  this.padEnd(str);
-}
+    this.padStart(str);
+    this.padEnd(str);
+  }
 }
 
 
